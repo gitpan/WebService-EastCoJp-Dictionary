@@ -1,0 +1,3 @@
+壁に寄り掛かるー［かべによりかかる］{TAB}(exp) to rest against the wall
+壁に掛かるー［かべにかかる］{TAB}(exp) to hang on the wall
+壁ー［かべ］{TAB}(n) wall{TAB}(P)
