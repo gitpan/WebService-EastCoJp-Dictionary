@@ -10,17 +10,15 @@ use WebService::EastCoJp::Dictionary::ParameterConstraints;
 has dic => (
     is      => "rw",
     isa     => "RequestParameter::Dic",
-    default => undef,
 );
 has item => (
     is      => "rw",
     isa     => "RequestParameter::Item",
-    default => undef,
 );
 has loc => (
     is      => "ro",
     isa     => "RequestParameter::Loc",
-    default => "",
+    default => q{},
 );
 has prof => (
     is      => "ro",
@@ -32,7 +30,7 @@ __PACKAGE__->meta->make_immutable;
 
 no Moose;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub to_string {
     my $self = shift;

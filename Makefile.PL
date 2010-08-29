@@ -5,7 +5,6 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'WebService::EastCoJp::Dictionary',
     VERSION_FROM      => 'lib/WebService/EastCoJp/Dictionary.pm',
-    MIN_PERL_VERSION  => 5.010000,
     PREREQ_PM         => {
         "Modern::Perl"     => 0,
         "Moose"            => 0,

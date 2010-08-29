@@ -10,17 +10,14 @@ use WebService::EastCoJp::Dictionary::ParameterConstraints;
 has dic => (
     is      => "rw",
     isa     => "RequestParameter::Dic",
-    default => undef,
 );
 has word => (
     is      => "rw",
     isa     => "Str",
-    default => undef,
 );
 has _word => (
     is      => "rw",
     isa     => "Str",
-    default => undef,
 );
 has scope => (
     is      => "rw",
@@ -59,7 +56,7 @@ no Moose;
 
 use URI::Escape qw( uri_escape uri_escape_utf8 );
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub to_string {
     my $self = shift;

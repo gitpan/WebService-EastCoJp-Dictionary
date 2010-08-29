@@ -23,7 +23,7 @@ use Readonly;
 use LWP::UserAgent;
 use XML::XPath;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 Readonly my %URL => (
     search_item => "http://btonic.est.co.jp/NetDic/NetDicV09.asmx/SearchDicItemLite",
@@ -324,6 +324,8 @@ sub jaja {
 
 1;
 __END__
+=encoding utf-8
+
 =head1 NAME
 
 WebService::EastCoJp::Dictionary - An interface for REST service of EAST.co.jp

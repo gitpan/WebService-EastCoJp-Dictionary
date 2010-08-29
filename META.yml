@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               WebService-EastCoJp-Dictionary
-version:            0.01
+version:            0.02
 abstract:           An interface for REST service of EAST.co.jp
 author:
     - Kuniyoshi Kouji <kuniyoshi@cpan.org>
@@ -13,7 +13,6 @@ build_requires:
 requires:
     Modern::Perl:      0
     Moose:             0
-    perl:              5.01
     Readonly:          1.03
     Test::LongString:  0.11
     URI::Escape:       0
@@ -22,7 +21,7 @@ no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.54
+generated_by:       ExtUtils::MakeMaker version 6.56
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4

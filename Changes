@@ -1,5 +1,7 @@
 Revision history for Perl extension WebService::EastCoJp::Dictionary.
 
+0.02  Sun Aug 29 19:31:13 2010
+    - Moose needs default.  Remove specification of default = undef.
 0.01  Mon Nov  2 21:51:52 2009
     - original version; created by h2xs 1.23 with options
         -Xan WebService::EastCoJp::Dictionary
